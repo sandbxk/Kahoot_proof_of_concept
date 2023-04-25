@@ -5,7 +5,7 @@ class GameSession {
   String id;
   String gameID;
   User host;
-  List<User> players;
+  List<User> players; //Duplicate data, use the players in the scores map instead
   Quiz quiz;
   int currentQuestion;
   Map<User, int> scores;
